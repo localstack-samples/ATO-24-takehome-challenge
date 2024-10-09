@@ -1,0 +1,142 @@
+{
+  "gadget1": {
+    "id": {
+      "S": "c1f6d8a2-9b1f-4e3d-8c29-e7338b42d801"
+    },
+    "name": {
+      "S": "Turbo Toaster"
+    },
+    "description": {
+      "S": "Pops toast so fast, it might travel through time!"
+    },
+    "location": {
+      "S": "Kitchen of Tomorrow, Sector 5"
+    }
+  },
+  "gadget2": {
+    "id": {
+      "S": "8a9b5bcf-b4c2-4f5b-b6a6-9d482b8c9f3d"
+    },
+    "name": {
+      "S": "Invisibility Socks"
+    },
+    "description": {
+      "S": "Makes your feet disappear… or does it?"
+    },
+    "location": {
+      "S": "Mystery Drawer, Under the Bed"
+    }
+  },
+  "gadget3": {
+    "id": {
+      "S": "d35a09f3-25fc-4f59-8ba8-fc8f21fa0ec3"
+    },
+    "name": {
+      "S": "Mood Mirror"
+    },
+    "description": {
+      "S": "Reflects your true feelings, even if you're faking a smile."
+    },
+    "location": {
+      "S": "Secret Room, Behind the Bookcase"
+    }
+  },
+  "gadget4": {
+    "id": {
+      "S": "4de2ae07-cb8a-4d2c-94f9-5af1d64c1d88"
+    },
+    "name": {
+      "S": "Bubblegum Launcher"
+    },
+    "description": {
+      "S": "Chews gum for you and launches it with precision."
+    },
+    "location": {
+      "S": "Pocket of Mystery Coat"
+    }
+  },
+  "gadget5": {
+    "id": {
+      "S": "73bd9626-923b-4b8d-983e-0e62f1582cc8"
+    },
+    "name": {
+      "S": "Next Step: The Lambda you need to invoke"
+    },
+    "description": {
+      "S": "Function name: certificate-lambda. Here's how to invoke it: Go back to the Status tab and select the Lambda service. Click on the function name and go to the Invoke tab. In the payload field add: {\"name\": \"YOUR_ACTUAL_NAME\"}"
+    },
+    "location": {
+      "S": "LocalStack"
+    }
+  },
+  "gadget6": {
+    "id": {
+      "S": "120f7a7d-6bbd-48b1-928e-1f91b12c6a56"
+    },
+    "name": {
+      "S": "Chatterbox Glasses"
+    },
+    "description": {
+      "S": "Whispers random fun facts when you're bored."
+    },
+    "location": {
+      "S": "Desk Drawer, Beside the Pens that Don’t Work"
+    }
+  },
+  "gadget7": {
+    "id": {
+      "S": "6e04a760-604b-44b3-9318-1044f8ec7b93"
+    },
+    "name": {
+      "S": "Instant Noodle Strainer"
+    },
+    "description": {
+      "S": "For when your noodles need to be perfect in 5 seconds flat."
+    },
+    "location": {
+      "S": "Top Shelf, Kitchen Cupboard"
+    }
+  },
+  "gadget8": {
+    "id": {
+      "S": "f4acb2db-8db4-41c2-8b98-92f9c99d0324"
+    },
+    "name": {
+      "S": "Laughing Lamp"
+    },
+    "description": {
+      "S": "Turns on when you tell a bad joke. The worse, the brighter!"
+    },
+    "location": {
+      "S": "Living Room, On the End Table"
+    }
+  },
+  "gadget9": {
+    "id": {
+      "S": "92e79f75-b67b-4186-bb8f-39f780a3a738"
+    },
+    "name": {
+      "S": "Whistle Wind Turbine"
+    },
+    "description": {
+      "S": "Generates electricity from your whistling – go green!"
+    },
+    "location": {
+      "S": "Backyard, Near the Bird Feeder"
+    }
+  },
+  "gadget10": {
+    "id": {
+      "S": "2dc6db89-b7e9-40e4-8ad4-5e8d472ffca9"
+    },
+    "name": {
+      "S": "Giggle Goggles"
+    },
+    "description": {
+         "S": "Goggles that make everyone look like they're laughing."
+       },
+       "location": {
+         "S": "Nightstand Drawer, Next to the Alarm Clock"
+       }
+     }
+   }

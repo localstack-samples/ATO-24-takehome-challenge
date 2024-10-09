@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Your Next Clue</title>
+    <link rel="icon" type="image/png" href="localstack-logo-icon-color.png">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            overflow: hidden; /* Hide confetti overflow */
+        }
+
+        .message-container {
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 1000;
+        }
+
+        .message {
+            font-size: 25px;
+            color: #333;
+            margin: 15px 0;
+        }
+
+        .confetti {
+    position: fixed;
+    width: 50px; /* Size of the confetti */
+    height: 50px;
+    background-image: url('localstack-logo-icon-color.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: drop 3s linear infinite;
+}
+
+        @keyframes drop {
+            0% { top: -10%; transform: rotate(0deg); }
+            100% { top: 110%; transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+<div class="message-container">
+    <div class="message">You just injected an S3 bucket hosting a site into your LocalStack instance.</div>
+    <div class="message">Here's your next clue:</div>
+    <div class="message">In your browser, please navigate to <a target="_blank" rel="noopener noreferrer" href="http://app.localstack.cloud">app.localstack.cloud</a>.</div>
+    <div class="message">Follow the path, starting from the left-hand panel:</div>
+    <div class="message">Go to <b>LocalStack Instances</b> then to <b>Status</b>.</div>
+    <div class="message">Find the DynamoDB service. A <b>table</b> called <b>Gadgets</b> is hiding your next clue within its <b>Items.</b></div>
+
+</div>
+    <script src="confetti.js"></script>
+</body>
+</html>
