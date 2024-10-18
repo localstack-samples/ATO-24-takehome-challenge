@@ -17,3 +17,4 @@ How to rebuild the project after making changes to it.
    Make sure the name is the same, so you don't have to create a new link via the Launchpad
    Push the cloud pod and the changes to the repository
 6. If you want to change the cloud pod name, go to http://app.localstack.cloud/launchpad and put in the following link:
+   `https://raw.githubusercontent.com/localstack-samples/ATO-24-takehome-challenge/main/<your-new-pod-name>`
