@@ -13,7 +13,9 @@
 
 `$ export LOCALSTACK_AUTH_TOKEN=<YOUR_AUTH_TOKEN>`
 
-If you're just joining us, let's start by getting you a token. Simply sign up [here](http://app.localstack.cloud). If you're using a personal email provider, you will be able to choose the Hobbyist plan in the next step. If you are using a work email, please select the 14 day trial option. Once in, you'll need a license. Click [here](https://app.localstack.cloud/workspace/auth-token) to go where you need to be directly. Fret not, there is no payment information required. You'll find your Auth Token in the Workspace section in the left-hand panel. Don't forget to export it as an environment variable.
+If you're just joining us, let's start by getting you a token. Simply sign up [here](http://app.localstack.cloud). If you're using a personal email provider, you will be able to choose the Hobbyist plan in the next step. If you are using a work email, please select the 14 day trial option.
+
+Once in, you'll need a license auth token. Click [here](https://app.localstack.cloud/workspace/auth-token) to go where you need to be directly. Fret not, there is no payment information required. You'll find your Auth Token in the Workspace section in the left-hand panel. Don't forget to export it as an environment variable.
 
 Fire up your engines by running the following command: `localstack start`
 
