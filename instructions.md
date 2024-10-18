@@ -15,7 +15,7 @@
 
 If you're just joining us, let's start by getting you a token. Simply sign up [here](app.localstack.cloud), and select the Hobby plan in the process. Once in, you'll need a license. Click [here](https://app.localstack.cloud/workspace/auth-token) to go where you need to be directly. Fret not, there is no payment information required. You'll find your Auth Token in the Workspace section in the left-hand panel. Don't forget to export it as an environment variable.
 
-Fire up your engines by running the following command: `localstack run`
+Fire up your engines by running the following command: `localstack start`
 
 In the unlikely situation of something going wrong, follow the instructions in the output logs.
 
